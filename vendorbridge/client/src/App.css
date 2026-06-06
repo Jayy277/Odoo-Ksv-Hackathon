@@ -1,0 +1,16 @@
+/* VendorBridge uses Tailwind CSS — see index.css for global styles */
+
+/* Print styles: hide UI chrome when printing/downloading invoices */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  main {
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+}
